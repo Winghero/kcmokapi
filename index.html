@@ -1,0 +1,962 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+
+<head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>IT Working Portal</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap Icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
+        <!-- SimpleLightbox plugin CSS-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+
+
+
+
+
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+        <link href="css/styles.css" rel="stylesheet" />
+
+
+
+<style>
+
+button.social-signin {
+  margin-bottom: 20px;
+  width: 220px;
+  height: 36px;
+  border: none;
+  border-radius: 2px;
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+button.social-signin:hover,
+button.social-signin:focus {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  transition: 0.2s ease;
+}
+
+button.social-signin:active {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  transition: 0.2s ease;
+}
+
+button.social-signin.facebook {
+  background: #32508E;
+}
+
+button.social-signin.twitter {
+  background: #55ACEE;
+}
+
+button.social-signin.google {
+  background: #DD4B39;
+}
+</style>
+
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="#page-top">iToday</a>
+                <a class="navbar-brand" id="menuFav">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;My Favourite
+				<img src=assets/img/Ser01.png width=20 height=20  />
+				<input type="checkbox" id="checkedService01"/>&nbsp;&nbsp;				
+				<img src=assets/img/Ser02.png width=20 height=20  />
+				<input type="checkbox" id="checkedService02"/>&nbsp;&nbsp;				
+				<img src=assets/img/Ser03.png width=20 height=20  />
+				<input type="checkbox" id="checkedService03"/>&nbsp;&nbsp;				
+				<img src=assets/img/Ser04.png width=20 height=20  />
+				<input type="checkbox" id="checkedService04"/>&nbsp;&nbsp;	</a>			
+
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto my-2 my-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#intro">Introduction</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#itwork">IT Work</a></li>
+                        <li id="signinText" class="nav-item"><a1 class="nav-link" href="#signin">Sign In</a1></li>
+						<li class="nav-item"><a id="signinValue" class="nav-link"></a></li>
+						<li id="signoutText" class="nav-item"><a class="nav-link" href="/index">Sign Out</a></li>
+						
+						
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container px-4 px-lg-5 h-100">
+                <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
+                    <div class="col-lg-8 align-self-end">
+                        <h1 class="text-white font-weight-bold">Welcome to iToday website</h1>
+                        <hr class="divider" />
+                    </div>
+                    <div class="col-lg-8 align-self-baseline">
+                        <p class="text-white-75 mb-5">Please feel free to register and enjoy the services</p>
+                        <a class="btn btn-primary btn-xl abc" href="#intro">Introduction</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- About-->
+        <section class="page-section bg-primary" id="intro">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="text-white mt-0">Let's enjoy I.T. life today!</h2>                        
+                        <hr class="divider divider-light" />
+                        <p class="text-white-75 mb-4">Information Technology is keep changing everyday.</p>
+                        <p class="text-white-75 mb-4">Join and get more information to enrich your knowledge.</p>
+                        <p class="text-white-75 mb-4">Enjoy the IT works!</p>
+                        <a class="btn btn-light btn-xl" href="#services">Get Started!</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Services-->
+        <section class="page-section" id="services">
+            <div class="container px-4 px-lg-5">
+                <h2 class="text-center mt-0">API Service</h2>
+                <hr class="divider" />
+                <div class="row gx-4 gx-lg-5">
+                    <div id="service01" class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-2"><i class="bi-gem fs-1 text-primary"></i></div>
+                            <h3 class="h4 mb-2">Job Vacancies in HKMA</h3>
+                            <p style="text-align:left" id="service01Value" class="text-muted mb-0">----------Loading----------</p>
+                        </div>
+                    </div>
+                    <div id="service02" class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-2"><i class="bi-laptop fs-1 text-primary"></i></div>
+                            <h3 class="h4 mb-2">HK Registered Domains</h3>
+                            <p style="text-align:Center" id="service02Value" class="text-muted mb-0">----------Loading----------</p>
+                        </div>
+                    </div>
+                    <div id="service03" class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-2"><i class="bi-globe fs-1 text-primary"></i></div>
+                            <h3 class="h4 mb-2">Weather in Hong Kong</h3>
+                            <p id="service03Value" class="text-muted mb-0">----------Loading----------</p>
+                        </div>
+                    </div>
+                    <div id="service04" class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-2"><i class="bi-heart fs-1 text-primary"></i></div>
+                            <h3 class="h4 mb-2">World Caring </h3>
+                            <p id="service04Value" class="text-muted mb-0">----------Loading----------</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+                <!-- To-Do List-->
+        <section class="page-section bg-dark text-white">
+            <div class="container px-4 px-lg-5 text-center" id="itwork">
+                <h2 class="mb-4">I.T. Team To-Do List</h2>
+
+				<select name="selectedList" id="selectedList">
+					
+	  				<option value="">Select a job title</option>
+
+				</select>
+
+                <a class="btn btn-light btn-xl" id="btnTodoDelete" type="submit" name="listregister()">Write Off</a>
+
+
+                <table  width="800">
+                <tr id="jobTolist"></tr>
+                </table>
+                <br>
+                
+
+                <form>
+                        <div class="form-floating mb-3">
+                        <input class="form-control" id="in_Todolist" type="text" placeholder="Add to List" />
+                        <label for="inputList">Add to List</label><br>
+                        </div>
+                <a class="btn btn-light btn-xl" id="btnTodolist" type="submit" name="listregister()">Add/Change content</a>
+                
+                
+                
+                </form>
+                
+                
+                
+            </div>
+        </section>
+        
+        
+        <!-- Portfolio-->
+        <div id="portfolio">
+            <div class="container-fluid p-0">
+                <div class="row g-0">
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/1.jpg" title="Develop in Future" id="pic01">
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/1.jpg" alt="..."   id="pic02"/>
+                            <div class="portfolio-box-caption">
+                                <div class="project-name">News</div>
+                                <div class="project-category text-white-50">Develop in the future</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/2.jpg" title="Develop in Future">
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/2.jpg" alt="..." />
+                            <div class="portfolio-box-caption">
+                                <div class="project-name">Hardware</div>
+                                <div class="project-category text-white-50">Develop in the future</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/3.jpg" title="Develop in Future">
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/3.jpg" alt="..." />
+                            <div class="portfolio-box-caption">
+                                <div class="project-name">Coding</div>
+                                <div class="project-category text-white-50">Develop in the future</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/4.jpg" title="Develop in Future">
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/4.jpg" alt="..." />
+                            <div class="portfolio-box-caption">
+                                <div class="project-name">Storage</div>
+                                <div class="project-category text-white-50">Develop in the future</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/5.jpg" title="Develop in Future">
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/5.jpg" alt="..." />
+                            <div class="portfolio-box-caption">
+                                <div class="project-name">Security</div>
+                                <div class="project-category text-white-50">Develop in the future</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/6.jpg" title="Develop in Future">
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/6.jpg" alt="..." />
+                            <div class="portfolio-box-caption p-3">
+                                <div class="project-name">Hardware</div>
+                                <div class="project-category text-white-50">Develop in the future</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sign in-->
+        <section class="page-section" id="signin">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8 col-xl-6 text-center">
+                        <h2 class="mt-0">Please Sign in</h2>
+                        <hr class="divider" />
+                        <p class="text-muted mb-5"><a2 class="nav-link" href="#register">New User? Create an account</a2></p>
+                    </div>
+                </div>
+                <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
+                    <div class="col-lg-6">
+                        <form>
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="in_username" type="text" placeholder="Enter your name..." />
+                                <label for="inputName">Login name</label>
+                            </div>
+<!--
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="in_email" type="email" placeholder="name@example.com" />
+                                <label for="inputEmail">Email address</label>
+                            </div>
+-->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" type="in_password"  id="in_password" name="password" placeholder="Password" />
+                                <label for="inputPassword">Password</label>
+                            </div>
+<!--
+                            <div class="form-floating mb-3">
+                                <input class="form-control" type="password"  id="in_password2" name="password2" placeholder="Retype Password" />
+                                <label for="inputPassword2">Confirm Password</label>
+                            </div>
+-->
+
+                            <div class="d-grid"><button id="btnSignin" class="btn btn-primary btn-xl abc" type="submit" name="listsignin()"/>Sign In</button></div>
+                        </form>
+                    </div>
+                </div>
+		</section>
+        <!-- Register-->
+        <section class="page-section" id="register">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8 col-xl-6 text-center">
+                        <h2 class="mt-0">Register</h2>
+                        <hr class="divider" />
+                    </div>
+                </div>
+                <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
+                    <div class="col-lg-6">
+                        <form>
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="reg_username" type="text" placeholder="Enter your name..." />
+                                <label for="inputName">Login name</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="reg_email" type="email" placeholder="name@example.com" />
+                                <label for="inputEmail">Email address</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input class="form-control" type="password"  id="reg_password" name="password" placeholder="Password" />
+                                <label for="inputPassword">Password</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input class="form-control" type="password"  id="reg_password2" name="password2" placeholder="Retype Password" />
+                                <label for="inputPassword2">Confirm Password</label>
+                            </div>
+							<div>
+                                <label for="inputEmail">Apply service:</label><br/><br/>
+								<input type="checkbox" name="regService01" id="regService01" value="1" >&nbsp;&nbsp;Job Vacancies
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+								<input type="checkbox" name="regService02" id="regService02" value="1" >&nbsp;&nbsp;HK Registered Domains
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+								<input type="checkbox" name="regService03" id="regService03" value="1" >&nbsp;&nbsp;Weather in Hong Kong
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>								
+								<input type="checkbox" name="regService04" id="regService04" value="1" >&nbsp;&nbsp;World Caring
+								<br/><br/>
+                            </div>                            
+<div class="d-grid"><button id="btnRegister" class="btn btn-primary btn-xl abc" type="submit" name="listregister()"/>Register</button></div>
+                        </form>
+                    </div>
+                </div>
+		</section>
+
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8 col-xl-6 text-center">
+                        <p class="text-muted mb-5">Or sign in with social network</p>
+					    <button class="social-signin facebook">Log in with facebook</button>
+					    <button class="social-signin twitter">Log in with Twitter</button>
+					    <button class="social-signin google">Log in with Google+</button>
+
+                    </div>
+
+                </div>
+
+
+
+
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-4 text-center mb-5 mb-lg-0">
+                        <i class="bi-phone fs-2 mb-3 text-muted"></i>
+                        <div> (852) 9876-5432</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+        <!-- Footer-->
+        <footer class="bg-light py-5">
+            <div class="container px-4 px-lg-5"><div class="small text-center text-muted">Copyright &copy; 2021 - KC Studio</div></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- SimpleLightbox plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script>
+
+
+//Start JQuery
+$(document).ready(function(){
+
+//Global Variables
+var loggedUser="";
+var loggedSer01="";
+var loggedSer02="";
+var loggedSer03="";
+var loggedSer04="";
+
+//Check box on top
+$( "#checkedService01" ).prop( "checked", true );
+$( "#checkedService02" ).prop( "checked", true );
+$( "#checkedService03" ).prop( "checked", true );
+$( "#checkedService04" ).prop( "checked", true );
+
+//Top menu before login
+$("#menuFav").hide();
+$("#signoutText").hide();
+
+
+//Run To-Do List
+listTodolist();
+
+
+// API from HKMA
+	$.ajax(
+		{ 
+		type: "GET",
+		url: "https://api.hkma.gov.hk/public/recruitment?lang=tc",
+		dataType: "json",
+		success: function (result, status, xhr){
+			console.log(result);
+			
+			var text = ""
+			for (i=0; i<result.result.datasize; i++){
+//				text = text + result.result.records[i].title + "<br>" 
+				text = text + "<a href='" + result.result.records[i].link + "'>"+ result.result.records[i].title +"</a><br>"
+			}
+
+						$("#service01Value").html(text)						
+
+				
+			}
+		}
+	)
+
+//API from DATA.GOV.HK
+$.ajax(
+	{ 
+	type: "GET",
+	url: "https://service.hkirc.hk/openapi/statistic/dn",
+	dataType: "json",
+	success: function (result, status, xhr){
+		console.log(result);
+		
+
+		last_obj_no = result.object.length-1
+		last_record_length = result.object[last_obj_no].statistic.length-1
+
+		var text =  "<a style='color:brown'><b> Updated : " + result.object[last_obj_no].period + "</b></a><br>"
+
+		
+		for (i=0; i<last_record_length; i++){
+			text = text + "<a>"+ result.object[last_obj_no].statistic[i].ext +" : "+ result.object[last_obj_no].statistic[i].count +"</a><br>"
+		}
+			$("#service02Value").html(text)						
+		}
+	}
+)
+	
+
+
+// API from Hong Kong Observatory
+	$.ajax(
+		{ 
+		type: "GET",
+		url: "https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=flw&lang=tc",
+		dataType: "json",
+		success: function (result, status, xhr){
+			console.log(result);
+			
+						$("#service03Value").html("<a style='color:brown'><b>" + result.forecastPeriod+" : </b></a>"+ "<br>" + result.forecastDesc)
+			}
+		}
+	)
+
+
+	
+// API from Covid19.com
+	$.ajax(
+		{ 
+		type: "GET",
+		url: "https://api.covid19api.com/summary",
+		dataType: "json",
+		success: function (result, status, xhr){
+			console.log(result);
+			for (var i = 0; i < result.Countries.length; i++){
+			
+						$("#service04Value").html("<a style='color:red'><b>"+"Covid 19 Total Confirmed :</b></a> " + "<br>"
+						 + "<a style='text-align:right;'>" + result.Global.TotalConfirmed	 + " (" + result.Global.NewConfirmed+ " new)"  + "</a>" + "<br>"
+						 + "<a style='color:red'><b>"+"Covid 19 Total Deaths : </b></a>" + "<br>"
+					 	 + result.Global.TotalDeaths 
+						 + " (" + result.Global.NewDeaths+ " new)" + "<br>"
+						 + "<a style='color:red'><b>" + "New Recovered : </b></a>"  + "<br>"
+						 + result.Global.NewRecovered)
+			}
+					
+			}
+		}
+	)
+
+	
+
+//Show the User's Favourite Section	
+	function showFav(){
+		$("#menuFav").show("slow");
+
+		$('html, body').animate({
+			  scrollTop: $("#services").offset().top
+			});
+		if (loggedSer01==1){
+			$("#service01").show("slow");
+			$( "#checkedService01" ).prop( "checked", true );
+
+		} else {
+			$("#service01").hide("slow");
+			$( "#checkedService01" ).prop( "checked", false );
+
+			}
+		if (loggedSer02==1){
+			$("#service02").show("slow");
+			$( "#checkedService02" ).prop( "checked", true );
+
+		} else {
+			$("#service02").hide("slow");
+			$( "#checkedService02" ).prop( "checked", false );
+
+			}
+		if (loggedSer03==1){
+			$("#service03").show("slow");
+			$( "#checkedService03" ).prop( "checked", true );
+
+		} else {
+			$("#service03").hide("slow");
+			$( "#checkedService03" ).prop( "checked", false );
+
+			}
+		if (loggedSer04==1){
+			$("#service04").show("slow");
+			$( "#checkedService04" ).prop( "checked", true );
+
+		} else {
+			$("#service04").hide("slow");
+			$( "#checkedService04" ).prop( "checked", false );
+
+			}
+}
+
+
+	
+	
+//To-Do List method
+function listTodolist(){
+       $.ajax({
+            type: 'GET',
+            url: 'http://127.0.0.1:1234/listTodolist',
+			dataType:"text",
+            success: function(data) {
+			const obj = JSON.parse(data)
+			var list = ""
+
+	        $("input:text").val("");
+
+			$("#selectedList").html("<option value='--'>--</option>");	
+
+
+			for (var i = 0; i < obj.length; i++){
+			list =  list +  "<br>" + " -- " + obj[i].jobTodo;
+			$("#selectedList").append("<option value='" +obj[i].jobTodo +"'>" + obj[i].jobTodo+ "</option>");
+			}
+			$("#jobTolist").html(list);
+
+}});
+
+}
+
+//Show the Sign-in table
+	function showSignin(){
+		location.href = "#signin";
+		$("#signin").show("fast");
+		$("#register").hide("slow");
+ 	}
+
+	function showRegister(){
+		$("#register").show("fast");
+		$("#signin").hide("slow");	
+	}
+
+	
+//Action when checkboxes has been triggered
+$('#checkedService01').click(function() {
+	editFav();
+});
+$('#checkedService02').click(function() {
+	editFav();
+});
+$('#checkedService03').click(function() {
+	editFav();
+});
+$('#checkedService04').click(function() {
+	editFav();
+});
+
+
+
+// Show all the services
+	function showAllServices(){
+			$("#service01").show("fast");
+			$("#service02").show("fast");
+			$("#service03").show("fast");
+			$("#service04").show("fast");			
+ 	}
+
+
+// Check the e-mail format
+	function checkEformat(email){
+		if (email.includes('@'))
+			if (email.includes('.com')||email.includes('.net'))
+			{ 
+			return true;
+			}
+			else
+			{
+			return false;
+			}
+		else
+			{
+			return false;
+			}
+		}
+
+// Double-Check the password
+	function checkPassword(pwd,pwd2){
+		if (pwd==pwd2)
+			{ 
+			return true;
+			}
+			else
+			{
+			return false;
+			}
+		}
+
+	
+
+// Action after the signin button has been clicked
+	$("#btnSignin").click(function(e){
+		e.preventDefault();
+		var usr = $("#in_username").val();
+		var pwd = $("#in_password").val();
+		var mydata ="login="+usr+"&password="+pwd;
+
+		if (usr=="")
+		{
+		alert("Login name is missing! Please provide your login name... ");
+			$("a11").show();
+		}
+		else if (pwd=="")
+		{ 
+		alert("Please enter your password... ");	
+		}
+		else
+		{ 
+//		alert("Input received. Your name is "+usr+", password is "+pwd);	
+
+// Run the signin checking
+        $.ajax({
+            type: 'POST',
+            url: 'http://127.0.0.1:1234/checkSignin',
+			dataType:"text",
+			data:mydata,
+            success: function(data) {
+//			alert(data);
+			const obj = JSON.parse(data)
+			
+//			alert(obj[0].username);
+
+			$("#signin").hide("slow");	
+            $('html, body').animate({ scrollTop: 0 }, 0);
+			$("#signinText").hide("slow");
+			$("#signinValue").text("Welcome, "+obj[0].username);
+			$("#signoutText").show("slow");
+			loggedUser=obj[0].username;
+			loggedSer01=obj[0].service01;
+			loggedSer02=obj[0].service02;
+			loggedSer03=obj[0].service03;
+			loggedSer04=obj[0].service04;
+
+// Check the service permission 
+			if (obj[0].service01 !=="1") {
+				loggedSer01=0;
+			}		
+			if (obj[0].service02 !=="1") {
+				loggedSer02=0;
+			}
+			if (obj[0].service03 !=="1") {
+				loggedSer02=0;
+			}						
+			if (obj[0].service04 !=="1") {
+				loggedSer02=0;
+			}			
+
+			showFav();
+
+
+//Prepared for internal data checking only 
+				if(data==[{}]){
+//					alert("reponse received -- NULL");
+//					localStorage.setItem("loginid", username);
+//					localStorage.setItem("loginstatus", "OK");
+//					location.href="http://www.hyalinehk.com:9999/book";
+//					
+				}else{
+//					alert(data);
+				}
+				
+            },
+            error: function(xhr, status, error) {
+                console.log('Error: ' + error.message);
+			}
+			});
+        }
+	});
+
+
+//Handle register request
+
+	$("#register").hide("slow");
+	
+	$("#btnRegister").click(function(e){
+		e.preventDefault();
+		var usr = $("#reg_username").val();
+		var email = $("#reg_email").val();
+		var pwd = $("#reg_password").val();
+		var pwd2 = $("#reg_password2").val();
+		if ($('#regService01').is(":checked"))
+			{var regSev01 = $("#regService01").val();}
+		if ($('#regService02').is(":checked"))		
+			{var regSev02 = $("#regService02").val();}
+		if ($('#regService03').is(":checked"))
+			{var regSev03 = $("#regService03").val();}
+		if ($('#regService04').is(":checked"))
+			{var regSev04 = $("#regService04").val();}				
+
+		var mydata ="login="+usr+"&email="+email+"&pwd="+pwd+"&pwd2="+pwd2+"&regSev01="+regSev01+"&regSev02="+regSev02+"&regSev03="+regSev03+"&regSev04="+regSev04;
+
+
+			if (usr=="")
+			{
+			alert("Username is missing! Please provide your user name... ");
+			}
+			else if (email=="")
+			{ 
+			alert("Please provide your E-mail... ");	
+			}
+			else if (pwd=="")
+			{ 
+			alert("Please modify your password... ");	
+			}
+			else if (pwd2=="")
+			{ 
+			alert("Please re-type your password");	
+			}
+			else if (checkEformat(email)==false)
+			{
+			alert("Wrong E-format!!!");	
+			}
+			else if (checkPassword(pwd,pwd2)==false)
+			{
+			alert("Password not match!!");	
+			}
+			else
+			{ 
+
+
+        $.ajax({
+            type: 'POST',
+            url: 'http://127.0.0.1:1234/checkRegister',
+			dataType:"text",
+			data:mydata,
+            success: function(data) {
+			
+				$("#register").hide("slow");
+				showSignin()
+				
+            },
+            error: function(xhr, status, error) {
+                console.log('Error: ' + error.message);
+			}
+			});
+			}
+	});
+
+	
+//Handle Edit Favourite request
+
+	function editFav(){
+	var usr = loggedUser;
+
+	var ser01 = $('#checkedService01').prop('checked')
+	var ser02 = $('#checkedService02').prop('checked')
+	var ser03 = $('#checkedService03').prop('checked')
+	var ser04 = $('#checkedService04').prop('checked')				
+	if (ser01){ser01=1} else ser01=0; 
+	if (ser02){ser02=1} else ser02=0;
+	if (ser03){ser03=1} else ser03=0;
+	if (ser04){ser04=1} else ser04=0;						
+	
+	
+	var mydata ="&username="+usr+"&service01="+ser01+"&service02="+ser02+"&service03="+ser03+"&service04="+ser04;
+
+    $.ajax({
+        type: 'POST',
+        url: 'http://127.0.0.1:1234/editFavourite',
+		dataType:"text",
+		data:mydata,
+        success: function(data) {
+			
+			loggedSer01=ser01;
+			loggedSer02=ser02;
+			loggedSer03=ser03;
+			loggedSer04=ser04;
+        	
+        	showFav();
+
+			
+        },
+        error: function(xhr, status, error) {
+            console.log('Error: ' + error.message);
+		}
+		});
+	
+}
+
+
+//Handle the Pull-down menu selection
+	
+	$( "select" )
+	  .change(function () {
+	    var str = "";
+	    $( "select option:selected" ).each(function() {
+	      str += $( this ).text() + " ";
+	    });
+	  })
+	  .change();
+	
+
+//Handle To-Do List request
+
+
+//Action from Submit button	
+	$("#btnTodolist").click(function(e){
+		e.preventDefault();
+		var usr = loggedUser;
+		var selected = $("#selectedList").val();
+		var todo = $("#in_Todolist").val();
+		
+		if (todo ==""){
+			alert("todo empty");
+		} else {
+		
+			if (selected =="--"){
+				var mydata ="action=add"+"&todo="+todo;
+			} else {
+				var mydata ="action=edit"+"&todo="+todo+"&target="+selected;
+			}
+	
+        $.ajax({
+            type: 'POST',
+            url: 'http://127.0.0.1:1234/addTodolist',
+			dataType:"text",
+			data:mydata,
+            success: function(data) {
+				listTodolist()
+            },
+            error: function(xhr, status, error) {
+                console.log('Error: ' + error.message);
+			}
+			});
+		}
+	});
+
+//Action from write-off button        
+    	$("#btnTodoDelete").click(function(e){
+    		e.preventDefault();
+    		var usr = loggedUser;
+    		var selected = $("#selectedList").val();
+    		var mydata ="todo="+selected;
+
+    		$.ajax({
+                type: 'POST',
+                url: 'http://127.0.0.1:1234/deleteTodolist',
+    			dataType:"text",
+    			data:mydata,
+                success: function(data) {
+ 
+//Reload Page (rejected)	
+/*
+				alert("Page Re-Load, Data- "+data);
+                   setTimeout(
+                      function() 
+                      {
+                         location.reload();
+                      }, 0001); 
+*/
+				listTodolist()
+                },
+                error: function(xhr, status, error) {
+                    console.log('Error: ' + error.message);
+    			}
+    			});
+        
+        
+        
+	});
+
+
+
+
+
+
+
+
+	$("a1").click(function(){
+		showSignin();
+	});
+	
+	$("a2").click(function(){
+		showRegister();
+	});
+
+
+	$("#btnShowAllServices").click(function(){
+		console.log("HIHI")
+		showAllServices();
+	});
+	
+	
+});
+
+
+
+
+</script>
+
+
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+
+
+
+
+</html>
